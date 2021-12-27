@@ -21,10 +21,10 @@ const Intro = () => {
 						I am extremely passionate for all things JavaScript. My main goal is to create stylish and modern web sites, platforms and online stores using React.js
 					</p>
 				</div>
-				<svg class="arrows">
-							<path class="a1" d="M0 0 L30 32 L60 0"></path>
-							<path class="a2" d="M0 20 L30 52 L60 20"></path>
-							<path class="a3" d="M0 40 L30 72 L60 40"></path>
+				<svg className="arrows">
+							<path className="a1" d="M0 0 L30 32 L60 0"></path>
+							<path className="a2" d="M0 20 L30 52 L60 20"></path>
+							<path className="a3" d="M0 40 L30 72 L60 40"></path>
 						</svg>
 			</div>
 			<div className="i-right">
