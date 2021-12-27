@@ -1,5 +1,6 @@
 import "./Intro.css"
 import Me from '../../img/me.png'
+import Award from "../../img/award.png";
 
 const Intro = () => {
 	return (
@@ -20,7 +21,16 @@ const Intro = () => {
 					<p className="i-desc">
 						I am extremely passionate for all things JavaScript. My main goal is to create stylish and modern web sites, platforms and online stores using React.js
 					</p>
+					<div className="a-award">
+          <img src={Award} alt="" className="a-award-img" />
+          <div className="a-award-texts">
+		  <a href="" target="_blank" rel="noreferrer">
+            <h4 className="a-award-title">Download My Resume</h4>
+			</a>
+          </div>
+        </div>
 				</div>
+
 				<svg className="arrows">
 							<path className="a1" d="M0 0 L30 32 L60 0"></path>
 							<path className="a2" d="M0 20 L30 52 L60 20"></path>

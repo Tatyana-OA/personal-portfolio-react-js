@@ -47,8 +47,24 @@
 }
 .a-desc {
 	font-weight:300;
+	
 }
 
+
+.skills-wrapp{
+	margin-top:30px;
+	display:flex;
+	flex-flow:row;
+	align-items:center;
+	justify-content: space-between;
+}
+span.skill-item {
+	border-radius:30px;
+	padding: 15px;
+	background-color: #490873e0;
+	color: white;
+	font-weight: 500;
+}
 .a-award {
 	margin-top:50px;
 	display:flex;
