@@ -2,13 +2,34 @@ import "./Contact.css";
 import Phone from "../../img/phone.png";
 import Email from "../../img/email.png";
 import Address from "../../img/address.png";
-import { useRef } from "react";
+import { useRef, useState } from "react";
+import emailjs from "emailjs-com";
 
 function Contact() {
 	const formRef = useRef();
+	const [done, setDone] = useState(false);
+
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
+
+		emailjs
+		.sendForm(
+		  "service_pfet4bv",
+		  "template_vzmv742",
+		  formRef.current,
+		  "user_ASUFZV4633Wfp9UfdzYfX"
+		)
+		.then(
+		  (result) => {
+			console.log(result.text);
+			setDone(true)
+			e.target.reset()
+		  },
+		  (error) => {
+			console.log(error.text);
+		  }
+		);
 	}
   return (
     <div className="c">
@@ -44,6 +65,7 @@ function Contact() {
 			  <input type="text" placeholder="Email" name="user_email"/>
 			  <textarea rows="5" placeholder="Message" name="user_message"/>
 			  <button>Submit</button>
+			  {done && <span className="email-thanks"> Thank you for your message! </span>}
 		  </form>
 		  </div>
         </div>
