@@ -56,8 +56,7 @@ function Contact() {
           </div>
           <div className="c-right">
 		  <p className="c-desc">
-            <b>What’s your story?</b> Get in touch. Always available for
-            freelancing if the right project comes along. me.
+            <b>Are you interested in working with me?</b> Get in touch. I will be delighted to discuss your inquiries.
           </p>
 		  <form ref={formRef} onSubmit={handleSubmit}>
 			  <input type="text" placeholder="Name" name="user_name"/>
