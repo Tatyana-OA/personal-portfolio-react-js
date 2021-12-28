@@ -1,6 +1,7 @@
 import "./Intro.css"
 import Me from '../../img/me.png'
 import Award from "../../img/award.png";
+import CV from "../../files/CV.pdf";
 
 const Intro = () => {
 	return (
@@ -24,8 +25,8 @@ const Intro = () => {
 					<div className="a-award">
           <img src={Award} alt="" className="a-award-img" />
           <div className="a-award-texts">
-		  <a href="" target="_blank" rel="noreferrer">
-            <h4 className="a-award-title">Download My Resume</h4>
+		  <a href={CV} target="_blank" rel="noreferrer">
+            <h4 className="a-award-title">View My Resume</h4>
 			</a>
           </div>
         </div>
