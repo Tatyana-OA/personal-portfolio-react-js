@@ -70,3 +70,18 @@ span.tech-item {
 .p-repo h3{
 	margin:20px 0px;
 }
+
+@media screen and (max-width:480px) {
+	.p-wrap {
+	width: 80%;
+    margin: 0 auto;
+    height: auto;
+	margin-bottom:20px;
+	padding-bottom:20px;
+	padding-right:10px;
+	}
+	.p {
+		height:35vh;
+		width:95%;
+	}
+}

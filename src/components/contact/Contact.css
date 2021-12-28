@@ -78,3 +78,15 @@
 	font-weight: 500;
 	cursor: pointer;
   }
+
+  @media screen and (max-width:480px) {
+	  .c {
+		  height:185vh;
+	  }
+	.c-wrapper {
+		flex-direction:column;
+	}
+	.c-icon {
+		margin-right:10px;
+	}
+}

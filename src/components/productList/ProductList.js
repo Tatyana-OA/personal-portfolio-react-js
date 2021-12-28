@@ -7,7 +7,7 @@ const ProductList = () => {
       <div className="l-texts">
         <h1 className="pl-title">React.js Projects</h1>
         <p className="pl-desc">
-         Check out my latest react.js project including various additional libraries and features.
+         Check out my latest react.js projects including various additional libraries and features.
         </p>
       </div>
 	  <div className="pl-list">

@@ -18,3 +18,15 @@
 	font-size:23px;
 	margin-right:5px;
 }
+
+@media screen and (max-width:480px) {
+	.f {
+		height:23vh;
+	
+	}
+	.contact-wrap {
+		height:20vh;
+		flex-flow:column;
+		padding-top:10px;
+	}
+}

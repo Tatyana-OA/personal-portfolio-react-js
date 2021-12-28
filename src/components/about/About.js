@@ -23,6 +23,7 @@ const About = () => {
 		<p className="a-sub">
 		I have <strong>5 years of experience as lead project manager and CEO of a WordPress Web Agency</strong>, with some of that experience including <strong>custom WordPress coding using PHP, JavaScript, HTML and CSS</strong>.
 		</p>
+		<div className= "skills-sect">
         <p className="a-desc">
           Main tech skills:
         </p>
@@ -46,7 +47,7 @@ const About = () => {
 		<span className="skill-item"> Leadership </span>
 		
 		</div>
-
+		</div>
       </div>
     </div>
   );

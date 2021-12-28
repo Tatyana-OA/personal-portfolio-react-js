@@ -13,6 +13,7 @@
 }
 .a-right {
 	flex:1;
+	padding-right:40px;
 }
 
 .a-card.bg {
@@ -79,4 +80,33 @@ span.skill-item {
 .a-award-title {
 	font-weight:bold;
 	color:#555;
+}
+
+@media screen and (max-width:480px) {
+	.a {
+		flex-direction:column;
+		text-align:center;
+		margin-top:50px;
+		height:190vh;
+	}
+	.a-left {
+		width:100%;
+	}
+	.a-card {
+		height: 30vh;
+	}
+
+	.a-right {
+		padding:20px;
+		width:90%;
+		padding-top:0px;
+	}
+	.skills-wrapp {
+		flex-wrap:wrap;
+		justify-content:center;
+	}
+	.skill-item {
+		margin:5px;
+	}
+
 }
