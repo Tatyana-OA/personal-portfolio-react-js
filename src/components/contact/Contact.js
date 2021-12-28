@@ -4,6 +4,7 @@ import Email from "../../img/email.png";
 import Address from "../../img/address.png";
 import { useRef, useState } from "react";
 import emailjs from "emailjs-com";
+import Footer from "../Footer/Footer";
 
 function Contact() {
 	const formRef = useRef();
@@ -32,6 +33,7 @@ function Contact() {
 		);
 	}
   return (
+	  <>
     <div className="c">
       <div className="c-bg"> </div>
         <div className="c-wrapper">
@@ -68,8 +70,10 @@ function Contact() {
 		  </form>
 		  </div>
         </div>
-    
+
     </div>
+	<Footer/>
+	</>
   );
 }
 
