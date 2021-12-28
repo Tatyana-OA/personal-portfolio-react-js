@@ -5,11 +5,9 @@ const ProductList = () => {
   return (
     <div className="pl">
       <div className="l-texts">
-        <h1 className="pl-title">Create & inspire. It's Lama</h1>
+        <h1 className="pl-title">React.js Projects</h1>
         <p className="pl-desc">
-          Lama is a creative portfolio that your work has been waiting for.
-          Beautiful homes, stunning portfolio styles & a whole lot more awaits
-          inside.
+         Check out my latest react.js project including various additional libraries and features.
         </p>
       </div>
 	  <div className="pl-list">
@@ -19,6 +17,9 @@ const ProductList = () => {
 			img={item.img}
 			link={item.link}
 			title={item.title}
+			description={item.description}
+			tech={item.tech}
+			repo = {item.repo}
 		  />
 		  ))}
 	  </div>
