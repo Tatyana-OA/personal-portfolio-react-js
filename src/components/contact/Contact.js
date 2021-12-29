@@ -69,10 +69,11 @@ function Contact() {
 			  {done && <span className="email-thanks"> Thank you for your message! </span>}
 		  </form>
 		  </div>
-        </div>
 
+        </div>
+		<Footer/>
     </div>
-	<Footer/>
+
 	</>
   );
 }
