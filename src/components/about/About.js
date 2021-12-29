@@ -19,7 +19,7 @@ const About = () => {
 		I am a <strong>highly driven individual </strong>who is passionate about <strong>technology, learning</strong>, reading and exploration.
 		</p>
 		<p className="a-sub">
-			I have been actiely practicing <strong>JavaScript, HTML and CSS for over 2 years now </strong>with my main focus being on establishing <strong>deeper React.js knowledge.</strong> </p>
+			I have been actively practicing <strong>JavaScript, HTML and CSS for over 2 years now </strong>with my main focus being on establishing <strong>deeper React.js knowledge.</strong> </p>
 		<p className="a-sub">
 		I have <strong>5 years of experience as lead project manager and CEO of a WordPress Web Agency</strong>, with some of that experience including <strong>custom WordPress coding using PHP, JavaScript, HTML and CSS</strong>.
 		</p>

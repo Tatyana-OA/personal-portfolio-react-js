@@ -20,7 +20,7 @@ const Intro = () => {
 						</div>
 					</div>
 					<p className="i-desc">
-						I am extremely passionate for all things JavaScript. My main goal is to create stylish and modern web sites, platforms and online stores using React.js
+						A tech-savvy developer, extremely passionate about JavaScript and React.js. With over 5 years of experience as the CEO of a WordPress Web Agency and a desire to create stunning and innovative web products.
 					</p>
 					<div className="a-award">
           <img src={Award} alt="" className="a-award-img" />
