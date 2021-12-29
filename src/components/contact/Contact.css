@@ -81,7 +81,7 @@
 
   @media screen and (max-width:480px) {
 	  .c {
-		  height:185vh;
+		  height:100vh;
 	  }
 	.c-wrapper {
 		flex-direction:column;
@@ -89,4 +89,13 @@
 	.c-icon {
 		margin-right:10px;
 	}
+	.c-title {
+		font-size:34px;
+	}
+	div.c-info-item {
+		font-size:15px;
+	}
+	/* .c-bg {
+		display:none;
+	} */
 }
