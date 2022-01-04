@@ -47,7 +47,7 @@ export const products = [
 	{
 	  id: 6,
 	  img: "https://i.ibb.co/GdyvxQG/screencapture-localhost-3000-2021-12-28-16-12-43.png",
-	  link: "http://lama.dev",
+	  link: "http://tasenovass.com/",
 	  title: "Portfolio Website",
 	  description: "This application serves as a simple and clean Portfolio website displaying React.js-based projects and basic information about a web developer.",
 	  tech: ["React.js", "HTML", "CSS", "EmailJS", "Firebase Hosting"],
